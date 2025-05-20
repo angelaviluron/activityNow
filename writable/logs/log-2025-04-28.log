@@ -1,0 +1,288 @@
+CRITICAL - 2025-04-28 20:36:25 --> ErrorException: include(&lt;h2&gt;encabezado&lt;/h2&gt;): Failed to open stream: No such file or directory
+[Method: GET, Route: CargarAmo]
+in APPPATH\Controllers\CargarAmo.php on line 15.
+ 1 APPPATH\Controllers\CargarAmo.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(&lt;h2&gt;encabezado&lt;/h2&gt;): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Controllers\\CargarAmo.php', 15)
+ 2 APPPATH\Controllers\CargarAmo.php(15): include()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CargarAmo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargarAmo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 20:36:36 --> ErrorException: include(header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: CargarAmo]
+in APPPATH\Controllers\CargarAmo.php on line 15.
+ 1 APPPATH\Controllers\CargarAmo.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Controllers\\CargarAmo.php', 15)
+ 2 APPPATH\Controllers\CargarAmo.php(15): include()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CargarAmo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargarAmo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 20:36:37 --> ErrorException: include(header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: CargarAmo]
+in APPPATH\Controllers\CargarAmo.php on line 15.
+ 1 APPPATH\Controllers\CargarAmo.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Controllers\\CargarAmo.php', 15)
+ 2 APPPATH\Controllers\CargarAmo.php(15): include()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CargarAmo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargarAmo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 20:36:38 --> ErrorException: include(header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: CargarAmo]
+in APPPATH\Controllers\CargarAmo.php on line 15.
+ 1 APPPATH\Controllers\CargarAmo.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Controllers\\CargarAmo.php', 15)
+ 2 APPPATH\Controllers\CargarAmo.php(15): include()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CargarAmo->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CargarAmo))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 20:36:52 --> ErrorException: include(header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: CargarAmo]
+in APPPATH\Controllers\CargarAmo.php on line 5.
+ 1 APPPATH\Controllers\CargarAmo.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Controllers\\CargarAmo.php', 5)
+ 2 APPPATH\Controllers\CargarAmo.php(5): include()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Controllers\\CargarAmo.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Controllers\\CargarAmo.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CargarAmo')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CargarAmo')
+ 7 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\CargarAmo', true)
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 20:36:53 --> ErrorException: include(header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: CargarAmo]
+in APPPATH\Controllers\CargarAmo.php on line 5.
+ 1 APPPATH\Controllers\CargarAmo.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Controllers\\CargarAmo.php', 5)
+ 2 APPPATH\Controllers\CargarAmo.php(5): include()
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(316): include_once('C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Controllers\\CargarAmo.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Controllers\\CargarAmo.php')
+ 5 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CargarAmo')
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CargarAmo')
+ 7 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\CargarAmo', true)
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 21:23:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "amos/cargar_amo.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('amos/cargar_amo.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/cargar_amo', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('amos/cargar_amo')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 21:25:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "amos/cargar_amo.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('amos/cargar_amo.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/cargar_amo', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('amos/cargar_amo')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 21:25:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "amos/cargar_amo.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('amos/cargar_amo.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/cargar_amo', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('amos/cargar_amo')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 21:26:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "amos/cargar_amo.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('amos/cargar_amo.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/cargar_amo', [], true)
+ 3 APPPATH\Controllers\Home.php(11): view('amos/cargar_amo')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 21:27:42 --> ErrorException: include(header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\amos\cargar_amo.php on line 4.
+ 1 APPPATH\Views\amos\cargar_amo.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Views\\amos\\cargar_amo.php', 4)
+ 2 APPPATH\Views\amos\cargar_amo.php(4): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Views\\amos\\cargar_amo.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/cargar_amo', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('amos/cargar_amo')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 21:28:11 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\amos\cargar_amo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/cargar_amo', [], true)
+ 4 APPPATH\Controllers\Home.php(11): view('amos/cargar_amo')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 21:28:40 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\amos\cargar_amo.php on line 5.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/cargar_amo', [], true)
+ 4 APPPATH\Controllers\Home.php(11): view('amos/cargar_amo')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 21:29:45 --> ErrorException: include(header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\amos\cargar_amo.php on line 4.
+ 1 APPPATH\Views\amos\cargar_amo.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Views\\amos\\cargar_amo.php', 4)
+ 2 APPPATH\Views\amos\cargar_amo.php(4): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Views\\amos\\cargar_amo.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/cargar_amo', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('amos/cargar_amo')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 21:30:33 --> ErrorException: include(../header.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\amos\cargar_amo.php on line 4.
+ 1 APPPATH\Views\amos\cargar_amo.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../header.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Views\\amos\\cargar_amo.php', 4)
+ 2 APPPATH\Views\amos\cargar_amo.php(4): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Views\\amos\\cargar_amo.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/cargar_amo', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('amos/cargar_amo')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 21:31:00 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\amos\cargar_amo.php on line 6.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/cargar_amo', [], true)
+ 4 APPPATH\Controllers\Home.php(11): view('amos/cargar_amo')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 21:32:14 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\amos\cargar_amo.php on line 6.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/cargar_amo', [], true)
+ 4 APPPATH\Controllers\Home.php(11): view('amos/cargar_amo')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 21:32:16 --> Error: Call to undefined function form_open()
+[Method: GET, Route: /]
+in APPPATH\Views\amos\cargar_amo.php on line 6.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/cargar_amo', [], true)
+ 4 APPPATH\Controllers\Home.php(11): view('amos/cargar_amo')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 21:32:52 --> ErrorException: include(footer.php): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in APPPATH\Views\amos\cargar_amo.php on line 34.
+ 1 APPPATH\Views\amos\cargar_amo.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Views\\amos\\cargar_amo.php', 34)
+ 2 APPPATH\Views\amos\cargar_amo.php(34): include()
+ 3 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Views\\amos\\cargar_amo.php')
+ 4 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/cargar_amo', [], true)
+ 6 APPPATH\Controllers\Home.php(11): view('amos/cargar_amo')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 22:31:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "header.ph"
+[Method: GET, Route: mostrar_amo]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header.ph')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('header.ph', [], true)
+ 3 APPPATH\Views\amos\mostrar_amo.php(2): view('header.ph')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\integrador_veterinaria\\app\\Views\\amos\\mostrar_amo.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/mostrar_amo', [], true)
+ 7 APPPATH\Controllers\Amos.php(12): view('amos/mostrar_amo')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Amos->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Amos))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 23:02:18 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: mostrar_amo]
+in APPPATH\Views\amos\mostrar_amo.php on line 28.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/mostrar_amo', [], true)
+ 3 APPPATH\Controllers\Amos.php(17): view('amos/mostrar_amo', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Amos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Amos))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-28 23:03:22 --> TypeError: Unsupported operand types: string + string
+[Method: GET, Route: mostrar_amo]
+in APPPATH\Views\amos\mostrar_amo.php on line 23.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('amos/mostrar_amo', [], true)
+ 4 APPPATH\Controllers\Amos.php(17): view('amos/mostrar_amo', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Amos->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Amos))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
