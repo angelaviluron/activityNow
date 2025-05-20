@@ -60,11 +60,5 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
 - [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
 =======
-# miVeterinaria
-Integrador Tópicos Avanzados.
-Integrantes: VILLALOBO, Gabriel y VILURON, Angela.
 
-Sistema que permita gestionar una veterinaria en la cual se debe poder dar de alta mascotas, amos y veterinarios.
-Ademas debe ser posible darlos de baja y modificar sus datos.
-Se debe tener constancia de las relaciones entre mascotas y amos.
 >>>>>>> 944aaf7b6863db8614fcaddfb8862ef040ce6ad8
